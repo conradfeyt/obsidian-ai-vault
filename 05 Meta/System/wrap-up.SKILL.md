@@ -27,7 +27,7 @@ The explicit, on-demand version of the session-end sweep that `conventions.md §
 
 Before acting, read `05 Meta/System/conventions.md` — specifically **§7 (during-session behavior)**: the daily-log format, the promotion-sweep forcing function, the captures/feature/decision rules, and **§8 Hard nos**. Those are authoritative. This skill is the running order; conventions is the rulebook.
 
-Also recall what the session actually did — scroll the conversation, and note which **repos** were touched (cwd may be one of several; this session can span manhattan / bash-core-flutter / bash-nest-js, etc.).
+Also recall what the session actually did — scroll the conversation, and note which **repos** were touched (cwd may be one of several; a session can span multiple repos at once).
 
 ## Triage gate (run first — especially on sign-offs)
 
