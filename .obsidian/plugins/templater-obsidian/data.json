@@ -1,0 +1,11 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "05 Meta/System/Templates",
+  "trigger_on_file_creation": false,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "user_scripts_folder": "",
+  "enable_folder_templates": false,
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false
+}

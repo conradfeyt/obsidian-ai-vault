@@ -18,8 +18,9 @@ Obsidian vault  ──(read/write .md)──  AI agent (Claude / Codex / …)
 
 1. **Clone** this repo and open the folder as a vault in [Obsidian](https://obsidian.md).
 2. **Enable core plugins:** Bases, Daily notes (location → `Daily`), Templates, Properties.
-3. **Install community plugins** (Settings → Community plugins → Browse): `base-board`, `templater-obsidian`, `obsidian-icon-folder`, `pretty-properties`, `cmdr`.
-4. **Point Templater** at `05 Meta/System/Templates`.
+3. **Install community plugins** (Settings → Community plugins → Browse): `base-board`, `templater-obsidian`, `obsidian-icon-folder` (Iconize), `pretty-properties`, `cmdr`. They're pre-listed in `.obsidian/community-plugins.json`, so they **auto-enable once installed**.
+   - **Folder/file icons** are pre-mapped (in `.obsidian/plugins/obsidian-icon-folder/data.json`) using native Lucide icons — no icon packs needed. They appear as soon as Iconize is installed; restart Obsidian if they don't show immediately.
+4. **Templater is pre-pointed** at `05 Meta/System/Templates` (shipped config) — nothing to set. *(Optional: bind a hotkey to the `New Project` template under Settings → Templater → Template Hotkeys.)*
 5. **Install the agent instruction file** for your tool:
    - **Claude Code:** `cp "05 Meta/System/obsidian-vault.SKILL.md" ~/.claude/skills/obsidian-vault/SKILL.md` (and the same for `wrap-up.SKILL.md`), then restart.
    - **Codex:** use `05 Meta/System/AGENTS.md` (copy to the vault root or your global Codex instructions).
