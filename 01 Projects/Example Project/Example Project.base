@@ -1,0 +1,18 @@
+filters:
+  and:
+    - type == "feature"
+    - 'project == "[[Example Project]]"'
+views:
+  - type: kanban
+    name: Example Project
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+    boardColumns:
+      - Unplanned
+      - Next
+      - Doing
+      - Waiting
+      - Done

@@ -1,0 +1,20 @@
+filters:
+  and:
+    - type == "feature"
+    - '!file.inFolder("05 Meta")'
+    - '!file.inFolder("04 Archive")'
+views:
+  - type: kanban
+    name: Active Work
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+    boardColumns:
+      - Unplanned
+      - Next
+      - Waiting
+      - Doing
+      - Done
+      - not doing

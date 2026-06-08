@@ -1,0 +1,12 @@
+filters:
+  and:
+    - type == "feature"
+    - 'project == "[[<% tp.file.title %>]]"'
+views:
+  - type: kanban
+    name: <% tp.file.title %>
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name

@@ -1,0 +1,7 @@
+# Obsidian per-machine state + cache (re-created locally on open)
+.obsidian/
+
+# OS cruft
+.DS_Store
+.trash/
+Thumbs.db
